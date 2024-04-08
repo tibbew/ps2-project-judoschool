@@ -1,0 +1,49 @@
+/* header */
+header {
+	margin-bottom: 20px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 20px 0;	
+	position: absolute;
+	outline: none;
+}
+
+h2{
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+figure img {
+	width: 100%;
+	margin-top: -105;
+}
+
+.Logo {
+	width: 92px;
+	margin: 44px 170px 0px 48px;
+}
+
+@media only screen and (max-width: 767px; ) {
+		.navbar {
+				display: none;
+				/*zorgt ervoor dat header niet te zien is op telefoon*/
+				top: 0;
+				z-index: 1;
+				background-color: #fff;
+				width: 100%;
+				display: flex;
+				padding: 0 10% 0 10%;
+				justify-content: space-between;
+				align-items: center;
+}
+}
+
+/* top right bottom left */

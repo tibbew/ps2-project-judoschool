@@ -1,0 +1,135 @@
+/* navigation */
+nav ul{
+	display: flex;
+}
+
+nav ul li {
+		list-style: none;
+	}
+
+nav ul li a {
+	font-size: 1rem;
+	border-right: 1px solid #828282;
+	text-decoration: none;
+	padding: 0 35px;
+	text-align: center;
+}
+nav ul li.active a {
+	color: #ffffff;
+}
+
+
+/* Dropdown */
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 0 35px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	border-radius: 50px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgb(65, 65, 65);
+	min-width: 160px;
+	z-index: 1;
+	border-radius: 20px;
+}
+
+.dropdown-content a {
+	float: none;
+	color: white;
+	padding: 12px  16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.dropdown-content a:hover {
+	background-color: rgb(151, 151, 151);
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.active {
+	background-color: black;
+	border: none;
+	color: black;
+	text-decoration: none;
+	padding: 20px 20px 20px 20px;
+	border-radius: 50px;
+	font-size: 20px;
+	font-family: "mulish";
+	margin: 0px 33px 0px 0px;
+}
+
+.active2 {
+	background-color: #FB0505;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px 0px 20px 0px;
+	border-radius: 50px;
+	font-size: 20px;
+	font-family: "mulish";
+	margin: 0px 33px 0px 0px;
+}
+
+/* Buttons */
+.button {
+	background-color: #ff0000;
+	border: none;
+	color: #ff0000;
+	padding: 16px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.button1 {
+	background-color: #ff0000;
+	color: white;
+	border-radius: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.button1:hover {
+	background-color: #ff4d4d;
+	color: white;
+}
+
+.button2 {
+	background-color: #323434;
+	color: white;
+	border-radius: 50px;
+	margin-bottom: 30px;
+}
+
+.button2:hover {
+	background-color: #5b5c5c;
+	color: white;
+}
+
+.active:hover {
+	background-color: #5b5c5c;
+	color: white;
+}
+
+.active2:hover {
+	background-color: #ff4d4d;
+	color: white;
+}
