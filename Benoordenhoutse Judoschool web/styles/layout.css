@@ -76,9 +76,9 @@ main {
 
 /* Contact */
 
-.contact img{
+.contact iframe{
 	width: 400px;
-	height: auto;
+	height: 400px;
 	margin: -200px 0px 75px 950px;
 }
 
@@ -271,13 +271,58 @@ footer img{
 	margin-top: -170px;
 }
 
-@media only screen and (max-width: 767px;) {
-	.into img{
-		width:33%;
-		height: auto;
-	}
+@media only screen and (max-width: 767px) {
+	.intro img {
+			margin: 0px;
+			height: 700px;
+			width: auto;
+			position: static;
+			align-content: end;
+		}
 
-	footer{
-		width:33%;
+	.column-wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 20px 0;
 	}
+	
+	.menu{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+.contactgegevens{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.contactgegevens p{
+	margin-left: 50px;
+}
+
+.contactgegevens img{
+	width: 60px;
+	height: auto;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}
+
+footer img{
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+}
+
+.contact iframe {
+	width: 300px;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+	align-items: center;
+}
+
 }

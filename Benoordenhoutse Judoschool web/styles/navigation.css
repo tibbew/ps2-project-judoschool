@@ -133,3 +133,10 @@ nav ul li.active a {
 	background-color: #ff4d4d;
 	color: white;
 }
+
+@media only screen and (max-width: 767px) {
+	nav ul{
+		display: flex;
+		flex-direction: column;
+	}
+}
